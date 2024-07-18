@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 html, body{
@@ -39,4 +39,50 @@ iframe#tela{
     width:265px;
     height:467px;
     
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    border-radius: 50%;
+    height: 60px;
+    margin: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+#redes-sociais img:hover{
+   box-shadow: 4px 4px 3px black;
+   transition: transform 0.3s;
+}
+
+#home:hover{
+    border: 2px solid rgb(99, 98, 98);
+    transform: translate(-2px, -1px);
+}
+
+#github:hover{
+    border: 2px solid #237702 ;
+    transform: translate(-2px, -1px);
+}
+
+#instagram:hover{
+    border: 2px solid pink;
+    transform: translate(-2px, -1px);
+}
+
+#youtube:hover{
+    border: 2px solid rgb(255, 0, 0);
+    transform: translate(-2px, -1px);
+}
+
+#facebook:hover{
+    border: 2px solid #00319b;
+    transform: translate(-2px, -1px);
+}
+
+#twitter:hover{
+    border: 2px solid #0069af;
+    transform: translate(-2px, -1px);
 }
